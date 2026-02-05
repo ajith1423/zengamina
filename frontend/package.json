@@ -57,6 +57,7 @@
     "zod": "^3.24.4"
   },
   "scripts": {
+    "postinstall": "chmod +x ./node_modules/.bin/craco",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test"
